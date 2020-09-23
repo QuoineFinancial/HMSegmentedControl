@@ -190,14 +190,14 @@ typedef NS_ENUM(NSInteger, HMSegmentedControlImagePosition) {
  
  Default is `[UIColor blackColor]`
  */
-@property (nonatomic, strong) UIColor *borderColor;
+@property (nonatomic, strong) UIColor *borderViewColor;
 
 /**
  Specifies the border width.
  
  Default is `1.0f`
  */
-@property (nonatomic, assign) CGFloat borderWidth;
+@property (nonatomic, assign) CGFloat borderViewWidth;
 
 /**
  Default is YES. Set to NO to deny scrolling by dragging the scrollView by the user.
